@@ -227,36 +227,24 @@ body {
 
 /* ---ПОДВАЛ---------------------- */
 
-.footer {
-    background-color: #2d2d44;
-    color: #fff;
-    padding: 15px 0 0 0;
-}
+.footer {}
 
 .footer-block_containter {}
 
 ._container {}
 
 .footer-block__body {
-    /* margin: 15px auto; */
-    padding: 0 15px;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .footer-body__column {
-    padding: 0 15px 15px 0;
-}
-
-.footer-body__column:first-child {
-    justify-content: center;
+    width: 3.333%;
 }
 
 .header__logo {}
 
-.footer-body__links {
-    display: flex;
-}
+.footer-body__links {}
 
 .footer-link {}
 
