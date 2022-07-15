@@ -445,8 +445,12 @@ body {
     }
 }
 
-.item-service {}
-
+.item-service {
+width= 100%; 
+}
+.item-service img {
+width=100%;
+}
 .item-service_green {
     background-color: #0d5c63;
 }
