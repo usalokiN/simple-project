@@ -239,7 +239,7 @@ body {
 
 .footer-block__body {
     /* margin: 15px auto; */
-    padding: 0 15px;
+    gap: 15px;
     display: flex;
     /* flex-wrap: wrap; */
 }
@@ -398,10 +398,13 @@ body {
 .services__container {}
 
 .services__body {
+    display: flex;
+    gap: 15px;
     justify-content: center;
+
 }
 
-@media (min-width: 670px) {
+@media (max-width: 670px) {
     .services__body {
         display: flex;
         flex-wrap: wrap;
@@ -413,7 +416,7 @@ body {
     flex: 0 1 33.333%;
 }
 
-@media (min-width: 670px) {
+@media (max-width: 670px) {
     .services__column {
         padding: 0px 15px;
     }
@@ -437,6 +440,15 @@ body {
     background-color: #fff;
     padding: 35px;
     justify-items: center;
+    -webkit-box-shadow: 5px -11px 15px -5px #000000; 
+    
+    position: relative;
+    transition: color .1s ease-in-out;
+    
+}
+
+.services__item:hover { 
+   
 }
 
 @media (max-width: 479px) {
@@ -446,10 +458,10 @@ body {
 }
 
 .item-service {
-width= 100%; 
+width: 100%; 
 }
 .item-service img {
-width=100%;
+width:100%;
 }
 .item-service_green {
     background-color: #0d5c63;
@@ -578,6 +590,9 @@ width=100%;
     .practice {
         padding: 40px 0px 80px 0px;
     }
+    .footer-block__body {
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 767px) {
@@ -664,4 +679,22 @@ width=100%;
 .item-practice__image {
     display: block;
     padding: 0px 0px 60% 0px;
+}
+.telegram:hover {
+    fill: aqua;
+}
+.youTube:hover {
+    fill: rgb(238, 1, 1);
+}
+.facebook:hover {
+    fiil: blue;
+}
+.vk:hover {
+    fill: rgb(28, 140, 206);
+}
+.twitter:hover {
+    fill:#00ccff;
+}
+.inst:hover {
+    fill:rgba(219, 19, 226, 0.61);
 }
