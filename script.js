@@ -48,7 +48,8 @@ links.forEach(e => {
     return {
         'total': t,
         'days': days,
-        'hours': minutes,
+        'hours': hours,
+        'minutes': minutes,
         'seconds': seconds
         };
     }
